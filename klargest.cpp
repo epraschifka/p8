@@ -11,7 +11,7 @@ int kth_largest(std::vector<int> values, int k)
         maxPQ.push(i);
     }
 
-    for (int i = 0; i < k; i++)
+    for (int i = 1; i < k; i++)
     {
         maxPQ.pop();
     }
