@@ -119,7 +119,7 @@ T Heap<T>::getMin()
   T min_val = values[0];
   for (T item : values)
   {
-    min_val = std::min(min_val, item)
+    min_val = std::min(min_val, item);
   }
 
   return min_val;
